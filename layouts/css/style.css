@@ -1,0 +1,31 @@
+.navbar {
+    font: sans-serif bold;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    border: solid 1px #e7e7e7;
+    background-color: silver;
+}
+.navbar-menu {
+    list-style-type: none;
+}
+.navbar-item {
+    display: inline;
+    float: left;
+}
+.navbar-item a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+.navbar-item:hover {
+    background-color: #ddd;
+}
+
+.active {
+    color: white;
+    background-color: #4CAF50;
+}
